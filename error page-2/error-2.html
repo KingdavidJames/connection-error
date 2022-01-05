@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>ImakeCodesComeAlive - Error</title>
+</head>
+
+<body>
+    <div class="internal-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="main-content">
+                    <div class="icon icon-plus"></div>
+                    <div class="message">
+                        <h1>
+                            <span class="heading">This site can't be reached</span>
+                        </h1>
+                        <p style="font-size: 1.1em;">Check if there is an error in www.imakecodescomealive.com</p>
+                        <p style="margin-bottom: 0px !important;">Try:</p>
+                        <div id="error-information-popup-container">
+                            <div id="error-information-popup">
+                                <div id="error-information-popup-box">
+                                    <div id="error-information-popup-content">
+                                        <div id="suggestions-list" class="font-big">
+                                            <!-- <p>If spelling is correct, <a href="#buttons" onclick="toggleHelpBox()">try running
+                                            Windows Network Diagnostics.</a></p> -->
+                                            <ul>
+                                                <li style="font-size: 1.1em;">Checking the connection</li>
+                                                <li style="font-size: 1.1em;"><a href="#buttons " onclick="toggleHelpBox() ">Checking the proxy,
+                                                        firewall, and DNS configuration</a></li>
+                                                <li style="font-size: 1.1em;"><a href="javascript:diagnoseErrors() " id="diagnose-link ">Running
+                                                        Windows Network.
+                                                        Diagnostics</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="error-code ul ">DNS_PROBE_FINISHED_NXDOMAIN</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden "></div>
+                    <div id="buttons " class="nav-wrapper suggested-left ">
+                        <div id="control-buttons ">
+                            <a href="error-2.html"><button id="reload-button "
+                                    class="blue-button text-button ">Reload</button></a>
+                            <button id="download-button " class="blue-button text-button " onclick="downloadButtonClick() " style="display: none; ">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <div class="container mt-lg-5">
+            <div class="row mt-lg-5">
+                <div class="col-lg-12 col-sm-12 mt-lg-5">
+                    <p class="text-center">©Copyright 2022 | Website Designed by KingDavid James.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
